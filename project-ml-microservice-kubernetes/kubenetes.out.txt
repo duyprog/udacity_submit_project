@@ -1,0 +1,15 @@
+(.devops) duypk@duypkDell:~/project4/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
+pod/prodapp created
+NAMESPACE     NAME                               READY   STATUS              RESTARTS      AGE
+default       prodapp                            0/1     ContainerCreating   0             0s
+kube-system   coredns-565d847f94-57j8p           1/1     Running             1 (25m ago)   5h9m
+kube-system   etcd-minikube                      1/1     Running             1 (25m ago)   5h9m
+kube-system   kube-apiserver-minikube            1/1     Running             1 (25m ago)   5h9m
+kube-system   kube-controller-manager-minikube   1/1     Running             1 (25m ago)   5h9m
+kube-system   kube-proxy-2pcfc                   1/1     Running             1 (25m ago)   5h9m
+kube-system   kube-scheduler-minikube            1/1     Running             1 (25m ago)   5h9m
+kube-system   storage-provisioner                1/1     Running             3 (25m ago)   5h9m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
